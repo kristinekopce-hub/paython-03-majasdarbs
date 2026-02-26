@@ -22,3 +22,19 @@ videja = summa / skaits
 
 print("summa:", summa)
 print("vidējā vērtība:", videja)
+
+#Filtrē sarakstu: pāra skaitļiem (for + if)
+skaitli = [10, 15, 20, 25, 50]
+para_skaitli = []  # jauns saraksts pāra skaitļiem
+for p_skaitlis in skaitli: 
+    if p_skaitlis % 2 ==0: # %dalīšanasn vai dalās ar 2
+        para_skaitli.append(p_skaitlis)
+print("para_skaitli:", para_skaitli)
+
+#Demonstrē (slice): pirmie 3, pēdējie 2, katrs otrais elements
+skaitli = [10, 15, 20, 25, 50]
+print("Pirmie 3:", skaitli[:3])      # pirmie 3 jeb :3
+print("Pēdējie 2:", skaitli[-2:])    # pēdējie 2, jeb -2:
+print("katrs otrais:", skaitli[::2]) # ņem katru otro solis 2, jeb  ::2
+
+
