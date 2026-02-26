@@ -77,3 +77,4 @@ for name, grade in studenti.items():
     if grade >= 80:
         print(f"{skaits}. {name} — {grade}")
         skaits += 1
+        
